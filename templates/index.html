@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software Testing Automation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <h4>Two sum of number in sort array</h4>
+	<form id="two-sum-form" action="/" method="POST">
+		<label for="numbers">List of numbers (space-separated):</label>
+		<input type="text" id="numbers" name="numbers" multiple required><br>
+<!--		<input type="text" id="numbers" name="numbers[]" multiple required><br>-->
+		<label for="target">Target value:</label>
+		<input type="text" id="target" name="target" required><br>
+		<button id="submit" type="submit">Submit</button>
+	</form>
+
+<!--	<div id="result"></div>-->
+	<div id="result">
+		{% if result %}
+			Result: {{ result }}
+		{% endif %}
+	</div>
+
+</body>
+</html>

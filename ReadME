@@ -1,0 +1,16 @@
+The Bug:
+1. Passing an string which can be converted to numeric will generate error
+
+2. in the function "test_input_no_solution" there was a bug there. because since we have no solution cause there is nothing
+ in the array that can sum up what will need, it won't prompt and result but was later resolved by using an if statement
+
+3. in the function "test_with_empty_list" there is a bug, when the submit button is click it doesn't get the next page
+ because the array is empty but it will rather join to the existing HTML content by print the result
+
+4. in the function "test_with_single_length" there will be an error because nothing should be in the list(lst)
+  because the expected result for a single element should be null if anything is inputted in the test fails
+
+
+Note a bug Though
+Note That, i was not able to pass send_keys through the text_content
+except through input tag, that's ehy i used the input tag for it
