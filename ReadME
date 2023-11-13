@@ -1,5 +1,5 @@
 The Bug:
-1. Passing an string which can be converted to numeric will generate error
+1. Passing a string which can be converted to numeric will generate error
 
 2. in the function "test_input_no_solution" there was a bug there. since we have no solution because there is nothing
  in the array that can sum up what will need, it won't prompt and result but was later resolved by using an if statement
